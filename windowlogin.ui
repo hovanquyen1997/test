@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>426</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>281</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(151, 227, 227);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>login.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>329</width>
+      <height>108</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(16, 9, 82);</string>
+        </property>
+        <property name="text">
+         <string>USER</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(16, 9, 82);</string>
+        </property>
+        <property name="text">
+         <string>PASS</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="user">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Century&quot;;
+color: rgb(16, 9, 82);
+border-color: rgb(16, 9, 82);
+border-style:solid;
+border-width:1px;
+border-radius:10px;
+padding-left:35px;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="pass1">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 14pt &quot;Century&quot;;
+color: rgb(16, 9, 82);
+border-color: rgb(16, 9, 82);
+border-style:solid;
+border-width:1px;
+border-radius:10px;
+padding-left:35px;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QPushButton" name="change">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(16, 9, 82);
+border-style:outset;
+border-with:20px;
+border-radius:10px;
+border-color: white;
+color: rgb(230, 230, 230);</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string>CHANGE</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>C:/Users/thi/Downloads/hiclipart.com.png</normaloff>
+        <normalon>C:/Users/thi/Downloads/hiclipart.com.png</normalon>C:/Users/thi/Downloads/hiclipart.com.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string/>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="login">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(16, 9, 82);
+border-style:outset;
+border-with:20px;
+border-radius:10px;
+border-color: white;
+color: rgb(230, 230, 230);</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string>LOGIN</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>C:/Users/thi/Downloads/hiclipart.com.png</normaloff>
+        <normalon>C:/Users/thi/Downloads/hiclipart.com.png</normalon>C:/Users/thi/Downloads/hiclipart.com.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string/>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="C:/Users/thi/Pictures/món ăn/sa/ts.qrc"/>
+  <include location="C:/Users/thi/Pictures/món ăn/sa/lib_image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
